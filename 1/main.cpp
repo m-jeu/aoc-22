@@ -5,16 +5,6 @@
 #include <queue>
 
 
-// For fancier version
-/*
-std::vector<std::string> split(std::ifstream & f, const char & splitChar){
-    std::vector<std::string> result;
-    std::string text;
-
-    while (std::getline(f, ))
-}
-*/
-
 //
 // Not very nice-looking yet, but just getting back into C++ after a long break,
 // So forgive me
@@ -98,6 +88,4 @@ int main() {
     }
 
     std::cout << totalResult << std::endl;
-
-
 }
