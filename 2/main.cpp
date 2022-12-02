@@ -18,8 +18,6 @@ int main() {
         std::string line;
         unsigned int totalScore = 0;
 
-        unsigned int c = 0; // DELETE ME
-
         while(std::getline(file, line)){
 
             Shape own = Shape::fromReadChar(line.at(2));
