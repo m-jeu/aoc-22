@@ -6,8 +6,7 @@
 #include "shape.h"
 
 
-int main() {
-
+void ex1(){
     std::filesystem::path inputPath = std::filesystem::current_path().string() + "/../inp.txt";
 
     std::fstream file;
@@ -34,5 +33,12 @@ int main() {
         std::cout << "Problem opening file" << std::endl;
 
     }
+}
+
+
+int main() {
+
+    ex1();
+    
 
 }
